@@ -1,5 +1,5 @@
 File Transfer (TCP) [TCP/IP Project]
-Team 443
+Team SLTCP
 
 Group Members : 1. SURENDRAN a/l SIVARAJ
                 2. NUR SUHAILY LIYANA BINTI ALIAS
