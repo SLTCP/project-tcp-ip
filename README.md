@@ -1,26 +1,15 @@
-# project-tcp-ip
-//echo # project-tcp-ip >> README.md
-//git init
-//git add README.md
-//git commit -m "first commit"
-//git remote add origin https://github.com/SLTCP/project-tcp-ip.git
-//git push -u origin master
+File Transfer (TCP) [TCP/IP Project]
+Team 443
 
-//socket function
+Group Members : 1. SURENDRAN a/l SIVARAJ
+                2. NUR SUHAILY LIYANA BINTI ALIAS
 
-#include <sys/socket.h>
-#include <unist.h>
+Task : Coding/QA/Verifying : SURENDRAN a/l SIVARA, NUR SUHAILY LIYANA BINTI ALIAS
 
-pid_t fork(void);
+How-to:
 
+Open two terminal
 
+have one execute ./server
 
-int socket (int family, int type, int protocol);
-int connect (int sockfd, const struct sockaddr *servaddr, socklen_t addrlen);
-int bind(int sockfd, const struct sockaddr *servaddr, socklen_t addrlen);
-int listen(int sockfd, int backlog);
-int accept(int sockfd, struct sockaddr *cliaddr,
-socklen_t *addrlen);
-ssize_t send(int sockfd, const void *buf, size_t nbytes, int flags);
-ssize_t recv(int sockfd, void *buf, size_t nbytes, int flags);
-int close(int sockfd);
+have one execute ./client
